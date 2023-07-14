@@ -1,0 +1,21 @@
+.acerca-container> h1{
+    color: #DD820D;
+    font-size: 34px;
+    font-weight: 300;
+    margin-top: 8%;
+}
+.acerca-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 315px;
+}
+.descripcion-container{
+    display: flex;
+    width: 80%;
+    text-align: center;
+    color: #5A5A5A;
+}
+.descripcion-container strong{
+    color: #3895EA;
+}

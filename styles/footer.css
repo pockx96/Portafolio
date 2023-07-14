@@ -1,0 +1,42 @@
+footer{
+    display: flex;
+    height: 400px;
+    background-color: #1E2B38;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+}
+.social-container{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    column-gap: 80px;
+    justify-content: center;
+}
+
+.card-social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 100px;
+    border-radius: 5px;
+}
+#github{
+    background-color: #181717;
+}
+#linkedin{
+    background-color: #0A66C2;
+}
+#instagram{
+    background-image: linear-gradient(to right, #C13584, #833AB4, #5851DB, #405DE6);
+}
+#twitter{
+    background-color: #1DA1F2;
+}
+.card-social i{
+    color: white;
+    font-size: 38px;
+}

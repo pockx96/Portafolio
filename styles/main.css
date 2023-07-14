@@ -1,0 +1,10 @@
+@import url(header.css);
+@import url(acerca-container.css);
+@import url(trabajos.css);
+@import url(contacto.css);
+@import url(footer.css);
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}

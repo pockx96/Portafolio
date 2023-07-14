@@ -1,0 +1,45 @@
+.contacto-container{
+    display: flex;
+    flex-direction: column;
+    height: 900px;
+}
+.contacto-container h1{
+    margin-top: 120px;
+}
+.formulario{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    height: 300px;
+    width: 50%;
+    align-self: center;
+    column-gap: 10%;
+}
+.formulario input{    
+    height: 40px;
+    width: 42%;
+    border-radius: 5px;
+    border: solid  2px #c2c2c2;
+    padding: 8px;
+    font-size: 20px;
+}
+#mensaje{
+    margin-top: 32px;
+    height: 80px;
+    width: 100%;
+}
+input[type="button"] {
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    text-align: center;
+    border: none;
+    background-color: #3895EA;
+    font-size: 20px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+
+}
